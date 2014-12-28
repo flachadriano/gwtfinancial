@@ -18,7 +18,7 @@ public class Gwtfinancial implements EntryPoint {
 	public void onModuleLoad() {
 		billsFlexTable.setText(0, 0, "Comida");
 
-		RootPanel.get("bills").add(billsFlexTable);
-		RootPanel.get("bills").add(new Button("Teste"));
+		RootPanel.get().add(billsFlexTable);
+		RootPanel.get().add(new Button("Teste"));
 	}
 }
